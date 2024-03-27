@@ -21,8 +21,10 @@
 # install.packages('safetyData')
 
 
-pkgload::load_all(".")
+# pkgload::load_all(".")
 
+# packageVersion("gsmApp")
+library(gsmApp)
 gsmApp::run_app()
 
-rsconnect::writeManifest()
+# rsconnect::writeManifest()
