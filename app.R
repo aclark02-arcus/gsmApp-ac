@@ -21,10 +21,11 @@
 # install.packages('safetyData')
 
 
-# pkgload::load_all(".")
+pkgload::load_all(".")
 
+# devtools::install_github("Gilead-BioStats/gsmApp", ref = "release-v1.0.0-rc1")
 # packageVersion("gsmApp")
-library(gsmApp)
+# library(gsmApp)
 gsmApp::run_app()
 
 # rsconnect::writeManifest()
